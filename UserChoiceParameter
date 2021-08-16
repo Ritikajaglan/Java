@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class UserChoiceParameter 
+{
+public static void mein(String[] s)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter a Number");
+int num=sc.nextInt();
+for(int a=0;a<num;a++)
+{
+for(int b=0;b<=a;b++)
+System.out.println("*");
+}
+}
+}
